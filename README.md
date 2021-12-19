@@ -83,4 +83,3 @@ Among various control algorithms, Sliding Mode Control (SMC) has been observed t
      
 
 # References:
-1. [srikanth dakoju (2021). Sliding Mode Control (SMC) example (https://www.mathworks.com/matlabcentral/fileexchange/51061-sliding-mode-control-smc-example), MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/51061-sliding-mode-control-smc-example "srikanth dakoju (2021). Sliding Mode Control (SMC) example (https://www.mathworks.com/matlabcentral/fileexchange/51061-sliding-mode-control-smc-example), MATLAB Central File Exchange")
