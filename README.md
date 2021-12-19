@@ -1,6 +1,8 @@
 # Super Twisting Sliding Mode control of a Quadrotor for Fault Tolerance
 
-[SMC](images/SMC.gif "SMC")
+<p float="left">
+  <img src="images/SMC.gif" width="800" />
+</p>
 
 A quadrotor has complex system dynamics with a variety of system states variables. That being said, the number of inputs available doesn’t allow the quadrotor to have input redundancy. This makes it difficult for controlling an under actuated quadrotor. If situational discrepancy leads to the under performance of the propeller actuators, the quadrotor loses its control and fails to follow the desired trajectory. The under performance can be really risky leading to the crash landing of the quadrotor. Considering the high-cost sensors and the load mounted on the quadrotor, crash landing can be a serious loss and dangerous for the surrounding environment. To overcome such situations, a fault tolerant controller has been designed to trigger appropriate control on the detection of faults among the propeller actuators.
 
