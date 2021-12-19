@@ -1,11 +1,10 @@
 # Super Twisting Sliding Mode control of a Quadrotor for Fault Tolerance
 
+[SMC](images/SMC.gif "SMC")
 
 A quadrotor has complex system dynamics with a variety of system states variables. That being said, the number of inputs available doesn’t allow the quadrotor to have input redundancy. This makes it difficult for controlling an under actuated quadrotor. If situational discrepancy leads to the under performance of the propeller actuators, the quadrotor loses its control and fails to follow the desired trajectory. The under performance can be really risky leading to the crash landing of the quadrotor. Considering the high-cost sensors and the load mounted on the quadrotor, crash landing can be a serious loss and dangerous for the surrounding environment. To overcome such situations, a fault tolerant controller has been designed to trigger appropriate control on the detection of faults among the propeller actuators.
 
 Among various control algorithms, Sliding Mode Control (SMC) has been observed to produce robust results on control of underactuated systems. Since SMC produces an undesirable high frequency chattering effect, an alternative has been provided to replace the nonlinear switching function. Super Twisting Sliding Mode Control (STW SMC) is implemented to remove such undesirable high frequency chattering. On detection of the faults using state estimators, a control allocation algorithm is triggered. Based on appropriate loss of actuator effectiveness (LAE), control allocation is implemented and the quadrotor is made to follow the trajectory and land safely without any disturbances. The following will elaborate on the mathematical modelling and controller design to implement such a FTC for the quadrotor.
-
-**Simulation Result Video:** https://www.youtube.com/watch?v=H5MgbEtm0Aw
 
 **The controller block diagram:**
 
