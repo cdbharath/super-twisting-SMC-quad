@@ -3,7 +3,7 @@
 <p float="left">
   <img src="images/SMC.gif" />
 </p>
-With out Super Twisting Sliding Mode Controller with Control Allocation (left). With Super Twisting Sliding Mode Controller with Control Allocation (right). 
+Without Super Twisting Sliding Mode Controller and Control Allocation (left). With Super Twisting Sliding Mode Controller and Control Allocation (right). 
 <br />
 <br />
 
