@@ -1,6 +1,6 @@
-# Super Twisting Sliding Mode control of a Quadrotor for Fault Tolerance
+## Super Twisting Sliding Mode control of a Quadrotor for Fault Tolerance
 
-Research Internship under Prof. Suresh Sundaram, Artificial Intelligence and Robotics Lab, Indian Institute of Science, 2019
+##### Research Internship under Prof. Suresh Sundaram, Artificial Intelligence and Robotics Lab, Indian Institute of Science, 2019
 
 <p float="left">
   <img src="images/SMC.gif" />
